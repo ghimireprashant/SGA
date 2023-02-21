@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525A18493042D0E8467CC09C /* Pods_SGA_AI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF92CD1EFF647277CEA7FCA8 /* Pods_SGA_AI.framework */; };
 		8F758F4329A4578100C9BAC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F4229A4578100C9BAC8 /* AppDelegate.swift */; };
-		8F758F4529A4578100C9BAC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F4429A4578100C9BAC8 /* SceneDelegate.swift */; };
-		8F758F4729A4578100C9BAC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F4629A4578100C9BAC8 /* ViewController.swift */; };
-		8F758F4A29A4578100C9BAC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F758F4829A4578100C9BAC8 /* Main.storyboard */; };
 		8F758F4C29A4578500C9BAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F758F4B29A4578500C9BAC8 /* Assets.xcassets */; };
 		8F758F4F29A4578500C9BAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F758F4D29A4578500C9BAC8 /* LaunchScreen.storyboard */; };
+		8F758F5B29A4589700C9BAC8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F758F5A29A4589700C9BAC8 /* Login.storyboard */; };
+		8F758F5E29A458C000C9BAC8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F5C29A458C000C9BAC8 /* LoginVC.swift */; };
+		8F758F5F29A458C000C9BAC8 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F5D29A458C000C9BAC8 /* RegistrationVC.swift */; };
+		8F758F6129A4596600C9BAC8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F6029A4596600C9BAC8 /* HomeViewController.swift */; };
+		8F758F6429A459F200C9BAC8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F6329A459F200C9BAC8 /* UIView+Extension.swift */; };
+		8F758F6629A45A5300C9BAC8 /* TringleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F6529A45A5300C9BAC8 /* TringleView.swift */; };
+		8F758F6A29A46F7800C9BAC8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F758F6929A46F7800C9BAC8 /* Home.storyboard */; };
+		8F758F6D29A4838400C9BAC8 /* TenserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F758F6C29A4838400C9BAC8 /* TenserHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E6149CCBFBA00BB517B690C /* Pods-SGA.AI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGA.AI.debug.xcconfig"; path = "Target Support Files/Pods-SGA.AI/Pods-SGA.AI.debug.xcconfig"; sourceTree = "<group>"; };
 		8F758F3F29A4578100C9BAC8 /* SGA.AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGA.AI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F758F4229A4578100C9BAC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F758F4429A4578100C9BAC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F758F4629A4578100C9BAC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8F758F4929A4578100C9BAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F758F4B29A4578500C9BAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F758F4E29A4578500C9BAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F758F5029A4578500C9BAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F758F5A29A4589700C9BAC8 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8F758F5C29A458C000C9BAC8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8F758F5D29A458C000C9BAC8 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		8F758F6029A4596600C9BAC8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8F758F6329A459F200C9BAC8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8F758F6529A45A5300C9BAC8 /* TringleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TringleView.swift; sourceTree = "<group>"; };
+		8F758F6929A46F7800C9BAC8 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8F758F6C29A4838400C9BAC8 /* TenserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenserHelper.swift; sourceTree = "<group>"; };
+		8F758F6E29A483FA00C9BAC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CF92CD1EFF647277CEA7FCA8 /* Pods_SGA_AI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGA_AI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F170D3A6B4055E60D3DAB3E7 /* Pods-SGA.AI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGA.AI.release.xcconfig"; path = "Target Support Files/Pods-SGA.AI/Pods-SGA.AI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +46,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525A18493042D0E8467CC09C /* Pods_SGA_AI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0845DB670773D10EC40D01DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF92CD1EFF647277CEA7FCA8 /* Pods_SGA_AI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F68ED577679251026E9A6D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E6149CCBFBA00BB517B690C /* Pods-SGA.AI.debug.xcconfig */,
+				F170D3A6B4055E60D3DAB3E7 /* Pods-SGA.AI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8F758F3629A4578100C9BAC8 = {
 			isa = PBXGroup;
 			children = (
+				8F758F6E29A483FA00C9BAC8 /* README.md */,
 				8F758F4129A4578100C9BAC8 /* SGA.AI */,
 				8F758F4029A4578100C9BAC8 /* Products */,
+				4F68ED577679251026E9A6D5 /* Pods */,
+				0845DB670773D10EC40D01DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,68 @@
 		8F758F4129A4578100C9BAC8 /* SGA.AI */ = {
 			isa = PBXGroup;
 			children = (
+				8F758F6B29A4828500C9BAC8 /* AI */,
+				8F758F6229A459DF00C9BAC8 /* Extension */,
+				8F758F5729A457F900C9BAC8 /* Source */,
+				8F758F5629A457B500C9BAC8 /* Resource */,
 				8F758F4229A4578100C9BAC8 /* AppDelegate.swift */,
-				8F758F4429A4578100C9BAC8 /* SceneDelegate.swift */,
-				8F758F4629A4578100C9BAC8 /* ViewController.swift */,
-				8F758F4829A4578100C9BAC8 /* Main.storyboard */,
+			);
+			path = SGA.AI;
+			sourceTree = "<group>";
+		};
+		8F758F5629A457B500C9BAC8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				8F758F4B29A4578500C9BAC8 /* Assets.xcassets */,
 				8F758F4D29A4578500C9BAC8 /* LaunchScreen.storyboard */,
 				8F758F5029A4578500C9BAC8 /* Info.plist */,
 			);
-			path = SGA.AI;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8F758F5729A457F900C9BAC8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8F758F5929A4580400C9BAC8 /* Home */,
+				8F758F5829A457FF00C9BAC8 /* Login */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8F758F5829A457FF00C9BAC8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8F758F5A29A4589700C9BAC8 /* Login.storyboard */,
+				8F758F5C29A458C000C9BAC8 /* LoginVC.swift */,
+				8F758F5D29A458C000C9BAC8 /* RegistrationVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8F758F5929A4580400C9BAC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8F758F6029A4596600C9BAC8 /* HomeViewController.swift */,
+				8F758F6929A46F7800C9BAC8 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8F758F6229A459DF00C9BAC8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8F758F6329A459F200C9BAC8 /* UIView+Extension.swift */,
+				8F758F6529A45A5300C9BAC8 /* TringleView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8F758F6B29A4828500C9BAC8 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				8F758F6C29A4838400C9BAC8 /* TenserHelper.swift */,
+			);
+			path = AI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F758F5329A4578500C9BAC8 /* Build configuration list for PBXNativeTarget "SGA.AI" */;
 			buildPhases = (
+				DA249A5921C959BE3F9C76D7 /* [CP] Check Pods Manifest.lock */,
 				8F758F3B29A4578100C9BAC8 /* Sources */,
 				8F758F3C29A4578100C9BAC8 /* Frameworks */,
 				8F758F3D29A4578100C9BAC8 /* Resources */,
+				81097E2D23002BE56F2E99A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +218,73 @@
 			files = (
 				8F758F4F29A4578500C9BAC8 /* LaunchScreen.storyboard in Resources */,
 				8F758F4C29A4578500C9BAC8 /* Assets.xcassets in Resources */,
-				8F758F4A29A4578100C9BAC8 /* Main.storyboard in Resources */,
+				8F758F5B29A4589700C9BAC8 /* Login.storyboard in Resources */,
+				8F758F6A29A46F7800C9BAC8 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81097E2D23002BE56F2E99A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SGA.AI/Pods-SGA.AI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SGA.AI/Pods-SGA.AI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SGA.AI/Pods-SGA.AI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA249A5921C959BE3F9C76D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SGA.AI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F758F3B29A4578100C9BAC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F758F4729A4578100C9BAC8 /* ViewController.swift in Sources */,
+				8F758F6429A459F200C9BAC8 /* UIView+Extension.swift in Sources */,
+				8F758F6D29A4838400C9BAC8 /* TenserHelper.swift in Sources */,
+				8F758F6129A4596600C9BAC8 /* HomeViewController.swift in Sources */,
 				8F758F4329A4578100C9BAC8 /* AppDelegate.swift in Sources */,
-				8F758F4529A4578100C9BAC8 /* SceneDelegate.swift in Sources */,
+				8F758F5E29A458C000C9BAC8 /* LoginVC.swift in Sources */,
+				8F758F6629A45A5300C9BAC8 /* TringleView.swift in Sources */,
+				8F758F5F29A458C000C9BAC8 /* RegistrationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8F758F4829A4578100C9BAC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F758F4929A4578100C9BAC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F758F4D29A4578500C9BAC8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +412,7 @@
 		};
 		8F758F5429A4578500C9BAC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6149CCBFBA00BB517B690C /* Pods-SGA.AI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +420,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQLGRC56DV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SGA.AI/Info.plist;
+				INFOPLIST_FILE = SGA.AI/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +432,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prashantghimire.SGA-AI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8F758F5529A4578500C9BAC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F170D3A6B4055E60D3DAB3E7 /* Pods-SGA.AI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +451,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQLGRC56DV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SGA.AI/Info.plist;
+				INFOPLIST_FILE = SGA.AI/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +463,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prashantghimire.SGA-AI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

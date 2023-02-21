@@ -1,0 +1,6 @@
+framework module Pods_SGA_AI {
+  umbrella header "Pods-SGA.AI-umbrella.h"
+
+  export *
+  module * { export * }
+}

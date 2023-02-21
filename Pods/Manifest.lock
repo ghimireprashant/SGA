@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManagerSwift (6.3.0)
+  - TensorFlowLiteTaskVision (0.4.3)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - TensorFlowLiteTaskVision
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - TensorFlowLiteTaskVision
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  TensorFlowLiteTaskVision: 125d5b49d325ba2cf3938454da5f74a1cbfe0552
+
+PODFILE CHECKSUM: 30bbdc120c2bc320c2a64e19af952887fd5d9cf4
+
+COCOAPODS: 1.11.3
